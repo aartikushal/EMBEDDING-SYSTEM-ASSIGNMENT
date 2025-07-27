@@ -16,18 +16,27 @@ bash
 Copy
 Edit
 pip install numpy pandas scikit-learn gensim tensorflow tqdm
+
 📂 Project Structure
 graphql
 Copy
 Edit
 embedding-assignment/
+
 ├── data/
+
 │   └── corpus.txt                   # Text corpus for training embeddings
+
 ├── embeddings/
+
 │   ├── glove.6B.100d.txt            # Pre-trained GloVe vectors (downloaded)
+
 │   └── custom_vectors.txt           # Trained Word2Vec or FastText vectors (optional)
+
 ├── notebook.ipynb                   # Main analysis notebook
+
 ├── glove_utils.py                   # GloVe loading utility
+
 ├── README.md                        # This file
 
 🔍 Methods Implemented
